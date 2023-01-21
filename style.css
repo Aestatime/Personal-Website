@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+:root {
+  /* Fonts */
+  --headingFont: 'Stardom', sans-serif;;
+  --headerFont: 'Stardom', sans-serif;;
+  /* Font Sizes */
+
+  /* Colors */
+  --myColor: #fab74b;
+  --white: #f5f5ff;
+  --footertext: #5a5a92;
+  --black: #1b1d22;
+  --selected: #774360;
+  --txtlink: #5da9ff;
+  --txtblock: #65ee87;
+  --txtlink: #B25068;
+  --alternativcolor: #4C3A51;
+}
+
+body {
+  font-family: 'General Sans', sans-serif;
+  background: #f5ece6;
+  justify-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Home */
+/* .nav-links{     
+  font-family: 'poppins', sans-serif;
+  flex: 1;
+  text-align: center;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a{
+  color: var(--white);
+  text-decoration: none;
+  transition: all .25s;
+}
+
+.nav-links ul li a:hover{
+  color: var(--myColor);
+} */
+
+nav{
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a{
+  color: var(--black);
+  text-decoration: none;
+  font-family: 'General Sans', sans-serif;
+  font-weight: bold;
+  display: block;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover{
+  color: #559723;
+}
+ 
+/* DropDownMenu */
+
+.dropdown-item:hover{
+  background-color: rgba(128, 128, 128, 0.103);
+}
+
+/* home */
+.home-text{
+  margin-top: 5rem;
+}
+
+.small-text{
+  font-family: 'General Sans', sans-serif;
+  display: flex;
+  font-size: 0.90rem;
+  color: #4a524a;
+}
+
+.big-text1{
+  font-family: var(--headerFont);
+  font-weight: 600;
+  font-size: 3.5rem;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.desc1{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.big-text2{
+  font-family: var(--headerFont);
+  font-weight: 600;
+  font-size: 3.5rem;
+  margin-top: 5rem;
+}
+
+.desc2{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+/* Footer */
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 15px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: var(--black);
+}
+
+.socials a i{
+  font-size: 1.5rem;
+}
+
+.socials a:hover i{
+  color: #559723;
+}
+
+.border{
+  color: var(--black);
+  width: 50%;
+  box-sizing: border-box;
+}
