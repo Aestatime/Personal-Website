@@ -79,9 +79,21 @@ nav ul li a:hover{
 }
  
 /* DropDownMenu */
+ul li ul.dropdown li{
+  display: block;
+}
 
-.dropdown-item:hover{
-  background-color: rgba(128, 128, 128, 0.103);
+ul li ul.dropdown{
+  width: 100%;
+  background: var(--white);
+  padding-left: 0;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+ul li:hover ul.dropdown{
+  display: block;
 }
 
 /* home */
